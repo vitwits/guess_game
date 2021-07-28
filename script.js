@@ -19,7 +19,7 @@ document.querySelector('.check').addEventListener('click', function () {
     document.querySelector('.number').textContent = secretNumber;
     if (score > highscore) {
       highscore = score;
-      document.querySelector('.highscore').textContent = score;
+      document.querySelector('.highscore').textContent = highscore;
     }
     
 
